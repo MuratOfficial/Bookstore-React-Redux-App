@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<h1 align="center">📚 Bookstore React Redux App</h1>
+<p align="center">
+  A simple bookstore application built with React and Redux for educational purposes.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/MuratOfficial/Bookstore-React-Redux-App?style=flat-square" />
+  <img src="https://img.shields.io/github/license/MuratOfficial/Bookstore-React-Redux-App?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/MuratOfficial/Bookstore-React-Redux-App?style=flat-square" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 About the Project
 
-### `npm start`
+**Bookstore React Redux App** is a learning project developed to practice building web applications using React and Redux. The application allows users to view a list of books and demonstrates the integration of Redux for state management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **Language**: JavaScript (ES6+)
+- **Frontend**: React
+- **State Management**: Redux
+- **Styling**: CSS
+- **Build Tool**: Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ Display a list of books
+- ✅ Integration of Redux for state management
+- ⏳ Add and remove books (planned)
+- ⏳ Filter books by category (planned)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Getting Started
 
-### `npm run eject`
+To set up and run the project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# 1. Clone the repository
+git clone https://github.com/MuratOfficial/Bookstore-React-Redux-App.git
+cd Bookstore-React-Redux-App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2. Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 3. Start the development server
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🗂️ Project Structure
 
-## Learn More
+```text
+Bookstore-React-Redux-App/
+├── public/             # Public assets
+├── src/                # Application source code
+│   ├── components/     # Reusable React components
+│   ├── redux/          # Redux store, actions, and reducers
+│   ├── App.js          # Main app component
+│   ├── index.js        # Entry point
+│   └── ...
+├── package.json        # Project configuration
+└── README.md           # Project documentation
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📌 Roadmap
+* Implement add and remove book functionality
+* Add filtering by category
+* Integrate a backend API for persistent data storage
+* Enhance UI/UX design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contribution
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the issues page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Fork the repository
+# Create a new branch
+git checkout -b feature/my-feature
 
-### Analyzing the Bundle Size
+# Make your changes
+git commit -m "Add my new feature"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Push to GitHub
+git push origin feature/my-feature
 
-### Making a Progressive Web App
+# Open a Pull Request!
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"><b>Made with ❤️ for educational purposes by <a href="https://github.com/MuratOfficial">MuratOfficial</a></b></p>
